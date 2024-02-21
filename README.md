@@ -4,7 +4,7 @@ const user = {
   nickname: "ilia21",
   age: 17,
   education: "Computer Science Student",
-  languages: ["NodeJS", "HTML/CSS"],
+  languages: ["NodeJS", "HTML/CSS", "Java"],
   OSes: ["Arch linux", "Windows 11"],
   hobbies: ["Coding", "Gaming", "Biking"],
   contacts: {
