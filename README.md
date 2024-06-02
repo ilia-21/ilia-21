@@ -5,7 +5,7 @@ const user = {
   age: 17,
   education: "Computer Science Student",
   languages: ["NodeJS", "HTML/CSS", "Java"],
-  OSes: ["Arch linux", "Windows 11"],
+  OS: "Arch linux",
   hobbies: ["Coding", "Gaming", "Biking"],
   contacts: {
     "discord": "@ilia21"
