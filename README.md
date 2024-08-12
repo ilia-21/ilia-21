@@ -1,17 +1,33 @@
-```javascript
-const user = {
+<!---
+interface CollegeStudent {
+  name: string;
+  nickname: string;
+  age: number;
+  education: {
+    major: string;
+    expectedGraduation: string;
+    relevantCoursework: string[];
+  };
+  currentlyLearning: string[];
+  skills: string[];
+  OS: string;
+  hobbies: string[];
+}
+--->
+
+```typescript
+const user: CollegeStudent = {
   name: "Ilya",
   nickname: "ilia21",
-  age: 17,
-  education: "Computer Science Student",
-  languages: ["NodeJS", "HTML/CSS", "Java"],
+  age: 18,
+  education: {
+    major: "Computer Science",
+    expectedGraduation: "June 2026",
+    relevantCoursework: ["Mobile Development", "Database managment", "Operating Systems", "Algorithms"],
+  },
+  currentlyLearning: ["React"],
+  skills: ["NodeJS", "HTML/CSS", "Java", "Typescript"],
   OS: "Arch linux",
   hobbies: ["Coding", "Gaming", "Biking"],
-  contacts: {
-    "discord": "@ilia21"
-  }
 };
 ```
-<!---
-I dont know why did i say "mid-level javascript programmer" in previous version 💀
---->
